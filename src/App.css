@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+button {
+  background-color: red;
+  color: white;
+  font-size: 150px;
+  margin-top: 15%;
+  border: 1px solid white;
+  border-radius: 25px;
+}
+
+html,
+body {
+  height: 100%;
+  background: whitesmoke;
+}
+button:focus {
+  outline: none;
+}
+button:hover {
+  cursor: wait;
+}
